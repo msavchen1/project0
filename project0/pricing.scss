@@ -1,0 +1,41 @@
+html {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+.container {
+  max-width: 960px;
+  background-color:grey;
+  border:30px;
+}
+div.col-sm {
+  color:white;
+  font-weight:bolder;
+  font-size:30px;
+}
+.pricing-header {
+  max-width: 700px;
+}
+#inner {
+  text-align:center;
+  font-size:20px;
+  color:white;
+  bottom:0;
+.price {
+        background-color: green;
+       display: grid;
+       padding: 20px;
+       grid-column-gap: 20px;
+       grid-row-gap: 10px;
+       grid-template-columns: 200px 200px auto;
+            }
+            .price-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }

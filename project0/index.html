@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
+      body {
+        background-image: url("mountain3.jpg");
+        background-size: cover;
+        background-color: black;
+        text-align:center;
+        font-size:30px;
+        font-weight:bold;
+        font-family:"Courier New", Courier, monospace;
+        color:white;
+      }
+      .text {
+        padding:70px 32px;
+      }
+      .container {
+        justify-content: space-evenly;
+        display:flex;
+        flex-wrap: wrap;
+      }
+      button {
+        display:inline-block;
+        padding: 10px 32px;
+        border: 2px solid grey;
+        margin:0 3px 3px 0;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-size:30px;
+        color:grey;
+        text-align:center;
+        transition: all 0.2s;
+      }
+      button:hover {
+        color:#353535;
+        background-color: white;
+        border: 2px solid #353535;
+
+      }
+      @media all and (max-width:30px){
+        button{
+          display:block;
+          margin:0.4px auto;
+        }
+      }
+      #inner {
+        text-align:center;
+        font-size:20px;
+        color:white;
+        bottom:0;
+      }
+    </style>
+    <title>GeoXplore</title>
+  </head>
+  <body>
+    <h2>Feel Freedom of Adventure in Georgia.</h2>
+    <div class="text" >
+      <p>We are a small group of enthusiasts who will help you to arrange your journey, starting from booking flights to providing you with all necessary equipment in order to assure the satisfaction of your journey to the mountains of Caucasus</p>
+      <p>We provide tours and routes to various destinations around the region of Elbrus, including small hiking trips with various levels of difficulty, city cultural and gastronomy tours.</p>
+    </div>
+    <div class="container">
+      <button onclick="window.location.href = '/Users/ms/Desktop/project0/services.html';" type="button" name="button"> Services</button>
+      <button onclick="window.location.href = '/Users/ms/Desktop/project0/pricelist.html';" type="button" name="button"> Pricelists</button>
+      <button onclick="window.location.href = '/Users/ms/Desktop/project0/about.html';"  type="button" name="button"> About us</button>
+      <button onclick="window.location.href = '/Users/ms/Desktop/project0/contact.html';"  type="button" name="button"> Contact us!</button>
+    </div>
+  </div>
+  <footer class="mastfoot mt-auto">
+      <div id="inner">
+        <p> Made by <a href="https://www.linkedin.com/in/mariya-denisovna-savchenko/">@msavchen1</a>.</p>
+      </div>
+    </footer>
+</html>

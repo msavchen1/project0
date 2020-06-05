@@ -1,0 +1,33 @@
+.contactinfo {
+
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+
+
+ td,  th {
+  border: 1px solid #415986;
+  padding: 8px;
+  }
+
+ tr:nth-child(even){
+   background-color: #95D49B;
+ }
+ tr:nth-child(odd){
+   background-color: #A9CBD5;
+ }
+
+tr:hover {
+  background-color: #C8E4CB;
+    }
+
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #489353;
+  color: black;
+  }
+}

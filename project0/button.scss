@@ -1,0 +1,30 @@
+
+%style {
+  display: inline-block;
+   padding: 10px 18px;
+   border: 2px solid #3C4173;
+   border-radius: 12px;
+   background-color: #5E76BC;
+   color: #330000;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-shadow: 0 .063em #000;
+   cursor:pointer;
+   font: bold 20px sans-serif;
+}
+
+     .btn1{
+    @extend %style;
+    background-color: #49CF8F;
+    border: 2px solid #256F4C;
+     }
+     .btn3{
+        @extend %style;
+        background-color: #893E28;
+        border: 2px solid #5A2414;
+    }
+    .btn2{
+       @extend %style;
+       background-color: #DBD325;
+       border: 2px solid #5A5714;
+   }

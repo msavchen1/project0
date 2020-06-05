@@ -1,0 +1,27 @@
+.contactinfo {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.contactinfo td, .contactinfo th {
+  border: 1px solid #415986;
+  padding: 8px;
+}
+.contactinfo tr:nth-child(even) {
+  background-color: #95D49B;
+}
+.contactinfo tr:nth-child(odd) {
+  background-color: #A9CBD5;
+}
+.contactinfo tr:hover {
+  background-color: #C8E4CB;
+}
+.contactinfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #489353;
+  color: black;
+}
+
+/*# sourceMappingURL=contact.css.map */
